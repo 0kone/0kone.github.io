@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Senora picerija."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Senora &mdash; Pica!🍕</title>
+  </head>
+  <body>
+    <header class="header">
+
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">Meniu</a></li>
+          <li><a class="main-nav-link" href="#gallery">Galerija</a></li>
+          <li><a class="main-nav-link" href="#contacts">Kontaktai</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Senora pizza 🍕
+            </h1>
+            <p class="hero-description">
+              Storapadės picos, bulvytes ir egiptietiškas saldumynas “zalabia” <br> Darbo laikas:<br>I-V 11:00-20:00<br>VI 13:00-20:00<br>VII-nedarbo diena
+            </p>
+            <a href="#how" class="btn btn--full margin-right-sm"
+              >Meniu</a
+            >
+
+
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+
+              <img
+                src="img/hero-min.png"
+                class="hero-img"
+                alt="Pica bulvytes zalabia"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+        <section class="section-how" id="how">
+          <div class="hero2">
+            <div class="hero2-text-box">
+              <h2 class="heading-secondary">
+                Meniu
+              </h2>
+
+            </div>
+            <div class="hero2-img-box">
+              <picture>
+                <figure class="hero2-img">
+                <source srcset="img/heromenu.webp" type="image/webp" />
+                <source srcset="img/heromenu-min.png" type="image/png" />
+  
+                <img
+                  src="img/heromenu-min.png"
+                  class="hero2-img"
+                  alt="Menu"
+                />
+              </figure>
+              </picture>
+            </div>
+          </div>
+        </section>
+
+      <section class="section-testimonials" id="gallery">
+        <div class="testimonials-container">
+          <span class="subheading">Galerija</span>
+          <h2 class="heading-secondary">Konkurso nugalėtojai 🎁🎊🎈🍕🧀</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/neringa.jpg"
+              />
+              <p class="testimonial-name">&mdash; Neringa Ašmenaitė</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/milda.jpg"
+              />
+
+              <p class="testimonial-name">&mdash; Milda Mažuolienė</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/iveta.jpg"
+              />
+
+              <p class="testimonial-name">&mdash; Iveta Žemaitytė</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/liveta.jpg"
+              />
+
+              <p class="testimonial-name">&mdash; Liveta Čiuladaitė</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-1.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-2.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-3.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-4.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-5.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-6.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-7.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-8.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-9.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-10.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-11.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-12.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+        </div>
+      </section>
+
+
+
+
+              </form>
+            </div>
+            <div
+
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+          </a>
+
+          
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading" id="contacts">Kontaktai</p>
+          <address class="contacts">
+            <p class="address">
+              Žiežmariai, Narimanto 5
+            </p>
+            <p>
+              <a class="footer-link" href="tel:(8-677) 19715">+370 677 19715</a
+              ><br />
+              <a class="footer-link" href="senora@senora.lt"
+                >senora@senora.lt</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+
+        </nav>
+
+        <nav class="nav-col">
+
+        </nav>
+
+          <nav class="nav-col">
+
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
